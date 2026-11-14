@@ -1,0 +1,44 @@
+# PRIVATES Repo (mit Kollegen geteilt)
+
+# macOS
+.DS_Store
+._*
+
+# Editoren
+.vscode/
+.idea/
+
+# Lokale Claude-Dateien (nie ins Repo)
+CLAUDE.md
+.claude/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# LaTeX-Hilfsdateien
+*.aux
+*.log
+*.toc
+*.out
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.listing
+*.bbl
+*.blg
+
+# Druckvorlagen (build_all.sh)
+build/
+print_all.pdf
+
+# Workbook-Zwischendateien
+workbook/tmp/
+*.records
+solution_heights.txt
